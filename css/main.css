@@ -9,6 +9,7 @@ body hr {
 	font-fmily:'Quicksand', sans-serif;
 }
 .backimg {
+	background:-webkit-linear-gradient(rgba(13, 52, 127, 0.85), rgba(13,52, 127, 0.85)), url("../img/background.jpg");
 	background:linear-gradient(rgba(13, 52, 127, 0.85),
 	rgba(13,52, 127, 0.85)),url("../img/background.jpg");
 	background-color: #cccccc;
@@ -165,11 +166,8 @@ body hr {
 	color: white;
 	margin: auto;
 	padding: 10px 15px;
-	display: inline-block;-moz-border-radius:100px;
-	-webkit-border-radius:100px;
+	display: inline-block;
 	border-radius: 100px;
-	-moz-box-shadow:0px 0px 2px #888;
-	-webkit-box-shadow:0px 0px 2px #888;
 	box-shadow: 0px 0px 2px #888;
 }
 .container h1 {
